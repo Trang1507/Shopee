@@ -1,0 +1,290 @@
+.dong1{color:whitesmoke;font-size: 15px;}
+#column1 {
+    width:10%;
+    float: left;
+}
+
+#column2 {
+    width:80%;
+    float: left;
+}
+
+#column3 {
+    width:10%;
+    float: left;
+    height:100%;
+    background-color: hsl(16, 92%, 54%);
+}
+
+
+#searcharea {
+    width:100%;
+    float: left;
+}
+
+
+#logo {
+    width:18%;
+    float: left;
+    display: inline;
+}
+#search{
+    width:68%;
+    float:left;
+}
+
+@media (max-width:1000px) {#logo  img{
+    WIDTH:70%;
+}
+}
+@media (max-width:1000px) {#column1 {
+    height:0px;width:0%;
+}
+}
+
+@media (max-width:1000px) {#column2 {
+    width:100%;
+}
+}
+
+
+@media (max-width:1000px) {#column3 {
+    width:0%;height:0px;
+}
+}
+
+@media (max-width:1000px) {#cart {
+    width:5%;height:100%;
+}
+}
+
+#searchbutton {
+    width:10%;
+    height:100%;
+    text-align: center;
+    float:right;
+    margin-right:1px;
+    padding:0px;
+   
+}
+
+#cart {
+    width:14%;float:left;
+    text-align: center;
+    
+}
+
+#firstrowleft {
+    display: inline;
+    float:left;
+}
+
+
+
+#firstrowright {
+    display: inline;
+    float:right;
+    color:whitesmoke;font-size: 15px;
+}
+
+@media (max-width:1000px) {.dong1 {
+    font-size:10px;
+}
+}
+@media (max-width:1000px) {#firstrowright {
+    font-size:10px;
+}
+}
+
+#infoarea {
+    height:800px; width:100%;
+   
+}
+
+#blankarea,#searchcolumn,#infocolumn,#blankareaa_2 {
+    height:100%;float:left;
+
+}
+
+#blankarea {
+    width:10%;background-color: #f1f4f4;
+}
+
+#searchcolumn {
+    width:12%;background-color: #f1f4f4;
+    font-weight:lighter;
+}
+
+#infocolumn {
+    width:70%;background-color:#f1f4f4;
+}
+
+#blankarea_2 {
+    width:10%;background-color: #f1f4f4;
+}
+ 
+@media (max-width:1000px) {#blankarea {
+    width:0%;height:0px;
+}  
+}
+
+@media (max-width:1000px) {#blankarea_2 {
+    width:0%;height:0px;
+}  
+}
+
+@media (max-width:1000px) {#searchcolumn {
+    width:17%;
+}
+}
+
+@media (max-width:1000px) {#infocolumn {
+    width:83%;
+}  
+}
+.filter {
+    font-size: 14px;
+    font-weight:100;
+}
+
+#ads_area {
+    padding:15px;
+    background-color:white;
+    height:90px;
+    width:100%;
+    
+
+}
+
+#zara {
+    width: 120px;
+    height:62px;
+    margin-top: 10px; 
+    float:left;
+
+}
+
+#zara_intro{
+    margin-top: 12px;
+    padding-left: 15px;
+    float:left;
+}
+
+.store_intro {
+    height:40%;
+    width:75px;
+    background-color: white;
+    float:right;
+    margin-top:22px;
+    text-align: center;
+    border:1px solid rgb(202, 202, 202);
+    border-top-color:white;
+    border-bottom-color:white;
+    
+}
+
+.store_intro_mid {
+    height:40%;
+    width:95px;
+    background-color: white;
+    float:right;
+    margin-top:22px;
+    text-align: center;
+    border:none;
+    
+}
+.store_intro_lastcolumn {
+    height:40%;
+    width:120px;
+    background-color: white;
+    float:right;
+    margin-top:22px;
+    margin-right:40px;
+    text-align: center;
+    
+}
+
+.store_intro_number {
+    color:hsl(16, 92%, 54%);
+
+}
+
+.store_intro_text {
+    color:gray;
+    font-weight:lighter;
+    font-size:12.5px;
+}
+
+.product {
+    height:280px;
+    width: 195px;
+    background-color: white;
+    FLOAT:LEFT;
+    MARGIN:3PX;
+    text-align: CENTER;
+    
+    
+}
+
+.product img{
+    height:80%;
+    max-width:100%;
+}
+
+.product h6{
+    
+
+}
+
+@media (max-width:1000px) {.store_intro,.store_intro_lastcolumn,.store_intro_mid {
+    width:40px; margin-top:0px;height:70%;
+}  
+}
+
+.search_result {
+    height:50%;
+    width:100px;
+    background-color: whitesmoke;
+    float:left;
+    padding:10px;
+    margin:5px;
+    margin-top: 0px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.search_result_price {
+    height:50%;
+    width:200px;
+    background-color: whitesmoke;
+    float:left;
+    padding:10px;
+    margin:5px;
+    margin-top: 0px;
+    font-weight: lighter;
+    
+}
+
+#search_result_price_icon {
+    margin-right: 0px;
+    float:right;
+   
+
+}
+
+@media (max-width:1000px) {.search_result_price {
+    width:40px;
+}  
+}
+
+
+#button_icon {
+    float:right;
+    width:100%;
+    height:100%;
+    color:white;
+    background-color:hsl(16, 92%, 54%);
+    border:1px solid white; 
+    
+}
+
